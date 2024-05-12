@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.loading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #aaa;
+  text-align: center;
+}
+
+.navbar {
+  padding: 20px 40px;
+  color: #fff;
+  background-color: #457b9d;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.user-card {
+  text-decoration: none;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+  display: block;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.user-card h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.user-card p {
+  color: #777;
+}

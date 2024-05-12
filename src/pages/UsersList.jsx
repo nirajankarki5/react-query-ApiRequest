@@ -10,7 +10,7 @@ const UsersList = () => {
     queryFn: getUsers,
   });
 
-  console.log(query);
+  //   console.log(query);
 
   if (query.isLoading) {
     return <Loading />;

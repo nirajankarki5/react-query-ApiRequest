@@ -31,7 +31,8 @@ html {
   max-width: 800px;
 }
 
-.user-card {
+.user-card,
+.post-card {
   text-decoration: none;
   padding: 20px 40px;
   margin-bottom: 10px;
@@ -39,11 +40,13 @@ html {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.user-card h2 {
+.user-card h2,
+.post-card h2 {
   color: #333;
   margin-bottom: 5px;
 }
 
-.user-card p {
+.user-card p,
+.post-card p {
   color: #777;
 }
